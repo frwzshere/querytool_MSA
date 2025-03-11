@@ -23,6 +23,6 @@ if search_text:
     if any(data['Domain'].str.contains(search_text, case=False)):
         st.write("数据库中已存在该SMB客户")
     else:
-        st.write("数据库中不存在")
+        st.write("数据库中不存在该SMB客户")
 else:
     st.write("请输入搜索内容进行查询")
