@@ -12,7 +12,7 @@ import streamlit as st
 import pandas as pd
 
 # 读取数据
-data = pd.read_csv('/Users/wangjiuduo/Downloads/cleaned_text.csv')
+data = pd.read_csv('cleaned_text.csv')
 
 # 创建一个文本输入框
 search_text = st.text_input("请输入搜索内容:")
