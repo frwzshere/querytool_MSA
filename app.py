@@ -15,7 +15,7 @@ import pandas as pd
 data = pd.read_csv('cleaned_text.csv')
 
 # 创建一个文本输入框
-search_text = st.text_input("请输入搜索内容:")
+search_text = st.text_input("请输入Domain(网址):")
 
 # 根据输入的文本检查是否存在
 if search_text:
